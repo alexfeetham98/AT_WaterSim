@@ -33,16 +33,21 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _DepthDistance: 1.19
-    - _DepthStrength: 0.2
-    - _DisplacementStrength: 0
+    - _DepthDistance: 1.4
+    - _DepthStrength: 0.31
+    - _DisplacementStrength: 0.75
     - _FersnelPower: 1
+    - _FoamAmount: 1
+    - _FoamCutoff: 1
+    - _FoamScale: 100
+    - _FoamSpeed: 1
     - _Fresnel: 1
     - _IOR: 0
-    - _NormalStrength: 0.39
-    - _NormalTiling: 2
-    - _PanSpeed: 0.075
+    - _NormalStrength: 1
+    - _NormalTiling: 10
+    - _PanSpeed: 0.1
     - _RefractStrength: 0.15
     m_Colors:
-    - _DeepColour: {r: 0.32156864, g: 0.48235297, b: 0.77647066, a: 1}
-    - _ShallowColour: {r: 0.05882353, g: 0.8196079, b: 0.9843138, a: 1}
+    - _DeepColour: {r: 0.2042542, g: 0.8018868, b: 0.7922962, a: 1}
+    - _FoamColour: {r: 1, g: 1, b: 1, a: 0.9019608}
+    - _ShallowColour: {r: 0, g: 0.8933511, b: 1, a: 1}

@@ -25,14 +25,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SecondNormal:
-        m_Texture: {fileID: 2800000, guid: ce4126831b1cddc4fb4adb09e248dc8c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7bc9b26e1b12f3d4f9a10736134b9227, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Depth: 0.5
     - _Displacement: 0.5
-    - _NormalStrength: 0.119
-    - _Smoothness: 0.973
+    - _NormalStrength: 1
+    - _Smoothness: 0.06
     - _Strength: 0.33
     m_Colors:
     - _DeepColor: {r: 0, g: 0.8313726, b: 0.8, a: 0.09803922}

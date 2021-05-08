@@ -12,7 +12,7 @@ Material:
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 2
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -33,21 +33,23 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _DepthDistance: 1.4
-    - _DepthStrength: 0.31
+    - _DepthDistance: 0.65
+    - _DepthStrength: 0.25
     - _DisplacementStrength: 0.75
     - _FersnelPower: 1
     - _FoamAmount: 1
     - _FoamCutoff: 1
+    - _FoamDistance: 0.33
     - _FoamScale: 100
     - _FoamSpeed: 1
+    - _FoamStrength: 0.1
     - _Fresnel: 1
     - _IOR: 0
     - _NormalStrength: 1
-    - _NormalTiling: 10
+    - _NormalTiling: 15
     - _PanSpeed: 0.1
     - _RefractStrength: 0.15
     m_Colors:
-    - _DeepColour: {r: 0.2042542, g: 0.8018868, b: 0.7922962, a: 1}
-    - _FoamColour: {r: 1, g: 1, b: 1, a: 0.9019608}
+    - _DeepColour: {r: 0.20392159, g: 0.72156864, b: 0.79215693, a: 1}
+    - _FoamColour: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
     - _ShallowColour: {r: 0, g: 0.8933511, b: 1, a: 1}
